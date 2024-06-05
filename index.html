@@ -10,17 +10,31 @@
 </head>
 
 <body>
-    <header class="container-fluid d-flex justify-content-center py-3 bg-primary">
-        <ul class="nav nav-underline">
-            <li class="nav-item"><a href="#cose-il-reiki" class="nav-link link-light" aria-current="page">Cos'è il
-                    Reiki</a></li>
-            <li class="nav-item"><a href="#chi-sono" class="nav-link link-light" aria-current="page">Chi sono</a></li>
-            <li class="nav-item"><a href="#trattamenti" class="nav-link link-light" aria-current="page">Trattamenti</a>
-            </li>
-            <li class="nav-item"><a href="#attivazioni" class="nav-link link-light" aria-current="page">Attivazioni</a>
-            </li>
-        </ul>
-    </header>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <!--<a class="navbar-brand" href="#">Navbar</a>-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-underline justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#cose-il-reiki">Cos'è il Reiki</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#chi-sono">Chi sono</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#trattamenti">Trattamenti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#attivazioni">Attivazioni</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div id="cose-il-reiki"
         style="background-image: url(https://images.unsplash.com/photo-1536882240095-0379873feb4e?q=80&amp;w=2071&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);background-position: left;background-repeat: no-repeat;background-size: cover;">
         <div class="container">
@@ -48,7 +62,7 @@
     <div id="chi-sono"
         style="background-image: url(https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);background-position: left;background-repeat: no-repeat;background-size: cover;">
         <div class="container">
-            <div class="row flex-lg-row align-items-center">
+            <div class="row flex-lg-row align-items-center py-5">
                 <div class="col-10 col-sm-8 col-lg-6"></div>
                 <div class="col-lg-6 text-bg-light bg-opacity-50">
                     <h1 class="fw-bold text-body-emphasis lh-1 mb-3">Chi sono</h1>
@@ -77,166 +91,153 @@
             </div>
         </div>
     </div>
-        <div class="container py-5" id="trattamenti">
-            <h2 class="pb-2 border-bottom">Trattamenti</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
-                <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                        <i class="bi-toggles2"></i>
+    <div class="container pt-5" id="trattamenti">
+        <h2 class="pb-2 border-bottom">Trattamenti</h2>
+        <div class="row py-5 g-4 row-cols-1 row-cols-lg-4 card-group">
+            <div class="col">
+                <div class="card text-bg-light h-100">
+                    <img src="https://placehold.co/300x200/333/DDD" class="card-img-top object-fit-cover" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Trattamento Reiki</h5>
+                        <p class="card-text">Chi vuole approfittare di una seduta Reiki in pausa pranzo è possibile
+                            approfittarne dalle
+                            12:30
+                            alle
+                            14:00. E’ molto consigliato in quanto ti dona una immediata sensazione di calma e
+                            rilassamento ed
+                            allo
+                            stesso tempo ti riempe di vitalità ed energia anche nei giorni successivi.</p>
                     </div>
-                    <h3 class="fs-2 text-body-emphasis">Trattamento Reiki</h3>
-                    <p>Chi vuole approfittare di una seduta Reiki in pausa pranzo è possibile approfittarne dalle
-                        12:30
-                        alle
-                        14:00. E’ molto consigliato in quanto ti dona una immediata sensazione di calma e
-                        rilassamento ed
-                        allo
-                        stesso tempo ti riempe di vitalità ed energia anche nei giorni successivi.</p>
-                    <a href="#costi" class="icon-link">
-                        Dettagli
-                    </a>
                 </div>
-                <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                        <i class="bi-toggles2"></i>
+            </div>
+            <div class="col">
+                <div class="card text-bg-light h-100">
+                    <img src="https://placehold.co/300x200/333/DDD" class="card-img-top object-fit-cover" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Angel Reiki (Reiki Arcangelico)</h5>
+                        <p class="card-text">L’Angel Reiki è una tecnica che unisce l’efficacia del Reiki alla potenza
+                            dell’energia
+                            arcangelica:
+                            è
+                            un’esperienza fantastica in cui vengono invocati gli Arcangeli che attendono solo la nostra
+                            richiesta
+                            per venirci in soccorso. Durante il trattamento possiamo percepire l’abbraccio, l’amore
+                            incondizionato e
+                            l’aiuto dei nostri potenti amici.</p>
                     </div>
-                    <h3 class="fs-2 text-body-emphasis">Angel Reiki (Reiki Arcangelico)</h3>
-                    <p>L’Angel Reiki è una tecnica che unisce l’efficacia del Reiki alla potenza dell’energia
-                        arcangelica:
-                        è
-                        un’esperienza fantastica in cui vengono invocati gli Arcangeli che attendono solo la nostra
-                        richiesta
-                        per venirci in soccorso. Durante il trattamento possiamo percepire l’abbraccio, l’amore
-                        incondizionato e
-                        l’aiuto dei nostri potenti amici.</p>
-                    <a href="#costi" class="icon-link">
-                        Dettagli
-                        <svg class="bi">
-                            <use xlink:href="bootstrap-icons.svg#chevron-right"></use>
-                        </svg>
-                    </a>
                 </div>
-                <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                        <i class="bi-toggles2"></i>
+            </div>
+            <div class="col">
+                <div class="card text-bg-light h-100">
+                    <img src="https://placehold.co/300x200/333/DDD" class="card-img-top object-fit-cover" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Animal Reiki (Reiki agli animali)</h5>
+                        <p class="card-text">Anche i nostri amici animali possono giovare di questa meravigliosa
+                            tecnica: sono destinatari privilegiati non essendo influenzati da filtri mentali o
+                            preconcetti. In alcuni casi ho notato una risposta positiva immediata con un evidente
+                            aumento dell’energia vitale. Il Reiki per glcostoi animali è anche una tecnica di
+                            accompagnamento a sostegno del loro percorso verso
+                            la
+                            luce per un più sereno distacco dalla materia.</p>
                     </div>
-                    <h3 class="fs-2 text-body-emphasis">Animal Reiki (Reiki agli animali)</h3>
-                    <p>Anche i nostri amici animali possono giovare di questa meravigliosa tecnica: sono destinatari
-                        privilegiati non essendo influenzati da filtri mentali o preconcetti. In alcuni casi ho
-                        notato una
-                        risposta positiva immediata con un evidente aumento dell’energia vitale.
-                        Il Reiki per glcostoi animali è anche una tecnica di accompagnamento a sostegno del loro
-                        percorso
-                        verso
-                        la
-                        luce per un più sereno distacco dalla materia.</p>
-                    <a href="#costi" class="icon-link">
-                        Dettagli
-                    </a>
                 </div>
-                <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                        <i class="bi-toggles2"></i>
+            </div>
+            <div class="col">
+                <div class="card text-bg-light h-100">
+                    <img src="https://placehold.co/300x200/333/DDD" class="card-img-top object-fit-cover" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Trattamenti Reiki a distanza</h5>
+                        <p class="card-text">Il Reiki ha la particolarità di permettere trattamenti a distanza tanto
+                            potenti quanto quelli
+                            in
+                            presenza: con questa speciale tecnica si annulla lo spazio/tempo, permettendo di trattare
+                            anche chi
+                            si
+                            trova a grande distanza; è quindi un’ottima opportunità per chi ha difficoltà a spostarsi.
+                        </p>
                     </div>
-                    <h3 class="fs-2 text-body-emphasis">Trattamenti Reiki a distanza</h3>
-                    <p>Il Reiki ha la particolarità di permettere trattamenti a distanza tanto potenti quanto quelli
-                        in
-                        presenza: con questa speciale tecnica si annulla lo spazio/tempo, permettendo di trattare
-                        anche chi
-                        si
-                        trova a grande distanza; è quindi un’ottima opportunità per chi ha difficoltà a spostarsi.
-                    </p>
-                    <a href="#costi" class="icon-link">
-                        Dettagli
-                        <svg class="bi">
-                            <use xlink:href="bootstrap-icons.svg#chevron-right"></use>
-                        </svg>
-                    </a>
                 </div>
             </div>
         </div>
-        <div class="container py-5" id="attivazioni">
-            <div class="row flex-lg-row align-items-center">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="https://placehold.co/500x400" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-                        width="700" height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="fw-bold text-body-emphasis lh-1 mb-3">Attivazioni</h1>
-                    <p>Durante le attivazioni o armonizzazioni si attiva a chi lo desidera la capacità di canalizzare e
-                        trasmettere l’energia universale/divina. Le attivazioni si dividono in 3 livelli:
-                    <ul>
-                        <li>nel primo livello il maestro attiva il canale attraverso il quale l’energia inizia a
-                            scorrere e
-                            l’allievo viene sintonizzato con le energie/vibrazioni dell’universo. Si insegnano le
-                            posizioni
-                            base e le tecniche per fare Reiki su se stessi e agli altri (persone, animali e piante).
-                        </li>
-                        <li>con il secondo livello si accede ai simboli del Reiki: sono degli strumenti di comando
-                            dell’energia che consentono di lavorare sul piano mentale, psichico, emotivo permettendo di
-                            ripristinare la salute psicofisica della persona; di trasmettere un Reiki più potente; di
-                            inviare Reiki a distanza.</li>
-                        <li>con il terzo livello si diventa Master Reiki cioè maestri, ci si rende consapevoli della
-                            propria
-                            crescita interiore ed aumentano le capacità di canalizzare le energie. Diventando Master
-                            Reiki
-                            si ha la possibilità di attivare chi lo desidera a questa magnifica disciplina.</li>
-                    </ul>
-                    </p>
-                </div>
+    </div>
+    <div class="container pt-5" id="attivazioni">
+        <div class="row flex-lg-row align-items-center">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="https://placehold.co/500x400" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                    width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="fw-bold text-body-emphasis lh-1 mb-3">Attivazioni</h1>
+                <p>Durante le attivazioni o armonizzazioni si attiva a chi lo desidera la capacità di canalizzare e
+                    trasmettere l’energia universale/divina. Le attivazioni si dividono in 3 livelli:
+                <ul>
+                    <li>nel primo livello il maestro attiva il canale attraverso il quale l’energia inizia a
+                        scorrere e
+                        l’allievo viene sintonizzato con le energie/vibrazioni dell’universo. Si insegnano le
+                        posizioni
+                        base e le tecniche per fare Reiki su se stessi e agli altri (persone, animali e piante).
+                    </li>
+                    <li>con il secondo livello si accede ai simboli del Reiki: sono degli strumenti di comando
+                        dell’energia che consentono di lavorare sul piano mentale, psichico, emotivo permettendo di
+                        ripristinare la salute psicofisica della persona; di trasmettere un Reiki più potente; di
+                        inviare Reiki a distanza.</li>
+                    <li>con il terzo livello si diventa Master Reiki cioè maestri, ci si rende consapevoli della
+                        propria
+                        crescita interiore ed aumentano le capacità di canalizzare le energie. Diventando Master
+                        Reiki
+                        si ha la possibilità di attivare chi lo desidera a questa magnifica disciplina.</li>
+                </ul>
+                </p>
             </div>
         </div>
-        <div class="container py-5" id="costi">
-            <div class="row flex-lg-row align-items-center">
-                <div class="col-lg-12">
-                    <h1 class="fw-bold text-body-emphasis lh-1 mb-3">Durata e costi dei trattamenti</h1>
-                    <p>
-                        Effettuo trattamenti Reiki a Rimini, di seguito info e costi</p>
-                    <table class="table table-responsive">
-                        <th>TIPO</th>
-                        <th>TRATTAMENTO</th>
-                        <th>COSTO</th>
-                        <tr>
-                            <td>Reiki in studio</td>
-                            <td>60 minuti</td>
-                            <td>40€</td>
-                        </tr>
-                        <tr>
-                            <td>Reiki per animali in studio</td>
-                            <td>30 minuti</td>
-                            <td>30€</td>
-                        </tr>
-                        <tr>
-                            <td>Reiki a distanza (per tutti)</td>
-                            <td>30 minuti</td>
-                            <td>30€</td>
-                        </tr>
-                        <tr>
-                            <td>Reiki pausa pranzo</td>
-                            <td>30 minuti</td>
-                            <td>25€</td>
-                        </tr>
-                    </table>
-                    <p>Previo accordo si eseguono anche trattamenti a domicilio.
-                    </p>
-                </div>
+    </div>
+    <div class="container py-5" id="costi">
+        <div class="row flex-lg-row align-items-center">
+            <div class="col-lg-12">
+                <h1 class="fw-bold text-body-emphasis lh-1 mb-3">Durata e costi dei trattamenti</h1>
+                <p>
+                    Effettuo trattamenti Reiki a Rimini, di seguito info e costi</p>
+                <table class="table table-responsive">
+                    <th>TIPO</th>
+                    <th>TRATTAMENTO</th>
+                    <th>COSTO</th>
+                    <tr>
+                        <td>Reiki in studio</td>
+                        <td>60 minuti</td>
+                        <td>40€</td>
+                    </tr>
+                    <tr>
+                        <td>Reiki per animali in studio</td>
+                        <td>30 minuti</td>
+                        <td>30€</td>
+                    </tr>
+                    <tr>
+                        <td>Reiki a distanza (per tutti)</td>
+                        <td>30 minuti</td>
+                        <td>30€</td>
+                    </tr>
+                    <tr>
+                        <td>Reiki pausa pranzo</td>
+                        <td>30 minuti</td>
+                        <td>25€</td>
+                    </tr>
+                </table>
+                <p>Previo accordo si eseguono anche trattamenti a domicilio.
+                </p>
             </div>
         </div>
-        <footer class="container-fluid sticky-bottom bg-body-secondary py-2">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Whatsapp</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Telefono</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Mail</a></li>
-            </ul>
-            <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+    </div>
+    <footer class="container-fluid sticky-bottom bg-body-secondary py-2">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Whatsapp</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Telefono</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Mail</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
